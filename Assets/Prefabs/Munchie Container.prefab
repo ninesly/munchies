@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8032717844759606431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8032717844759606429}
+  - component: {fileID: 8032717844759606428}
+  m_Layer: 0
+  m_Name: Munchie Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8032717844759606429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032717844759606431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6546348994564056270}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8032717844759606428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032717844759606431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74628334a3e8c3e418bdbfe2b5954222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  munchiePrefab: {fileID: 3864299499616632584, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+  diceToRollForRandomTreat: 10
+  colorsOfVariations:
+  - {r: 1, g: 0.674, b: 0.9833803, a: 0}
+  - {r: 1, g: 0.376, b: 0.9681881, a: 0}
+  - {r: 0.454, g: 0.5931764, b: 1, a: 0}
+  - {r: 0.19099998, g: 0.3972156, b: 1, a: 0}
+  - {r: 1, g: 0.14899999, b: 0.24578053, a: 0.42745098}
+  - {r: 1, g: 0.29800004, b: 0.37783545, a: 1}
+  resistances:
+  - Poison
+  - Poison
+  - Electricity
+  - Electricity
+  - Thunder
+  - Thunder
+  sizeVariationMin: 0.5
+  sizeVariationMax: 1.5
+--- !u!1001 &8032717845347933132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8032717844759606429}
+    m_Modifications:
+    - target: {fileID: 3040962403481345689, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6117368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3317504
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864299499616632584, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+      propertyPath: m_Name
+      value: Player Munchie
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+--- !u!4 &6546348994564056270 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3864299499616632578, guid: 0420c1b665bb79a49ada3df2a04ce4a1, type: 3}
+  m_PrefabInstance: {fileID: 8032717845347933132}
+  m_PrefabAsset: {fileID: 0}

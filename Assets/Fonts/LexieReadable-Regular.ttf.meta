@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3bf908c1889e40e4780442d22b1369c3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lexie Readable
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7c3948222e6ad3846959ac6321e260dc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

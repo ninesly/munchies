@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2787656809504858552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4798017700821160634}
+  - component: {fileID: 5798212700301158828}
+  m_Layer: 0
+  m_Name: Sound Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4798017700821160634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2787656809504858552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5798212700301158828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2787656809504858552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a6443b2ae19624ab1f9d1a13b6fb0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: f3191369ab781af4481038b889abb217, type: 3}
+  buttonVolume: 0.372
+  spawnSound: {fileID: 8300000, guid: 119606f1dc5b01246b81fc535334d355, type: 3}
+  spawnVolume: 0.447
+  deathSound: {fileID: 8300000, guid: f608cd36107fe4343ab61a58b15baf5a, type: 3}
+  deathVolume: 0.373
+  smunchieVolume: 0.391
+  moatherSound: {fileID: 8300000, guid: a35c1523bd2716b498308073b909ad65, type: 3}
+  dictoSound: {fileID: 8300000, guid: 907cf139c63e1534a9ae279b1d8f5487, type: 3}
+  seeerSound: {fileID: 8300000, guid: cc4cd7d3e6a84c64aad67825b09b9c13, type: 3}
+  sacriSound: {fileID: 8300000, guid: c84c62b301a380c458a2dfb0b1c9da26, type: 3}
+  whipySound: {fileID: 8300000, guid: a6d66144c31a45f4e9f5b7e49b0edef8, type: 3}
+  startLevelSound: {fileID: 8300000, guid: 2401286090d4aa94f89b328736ab3460, type: 3}
+  startLevelVolume: 0.436
+  goalPointSound: {fileID: 8300000, guid: de716e2cd5b33a744bb9dd5b815e84b9, type: 3}
+  goalPointVolume: 0.058
+  winSound: {fileID: 8300000, guid: e77f1634b7628ff4d9ffc9880a03b5e7, type: 3}
+  winVolume: 0.366
+  loseSound: {fileID: 8300000, guid: e77f1634b7628ff4d9ffc9880a03b5e7, type: 3}
+  loseVolume: 0.349

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8172132787120368541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8172132787120368543}
+  - component: {fileID: 8172132787120368542}
+  m_Layer: 0
+  m_Name: L8 Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8172132787120368543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172132787120368541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1194.6439, y: 487.67706, z: -68.80091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8172132787120368542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172132787120368541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ad0e1eac71d8b429fd3b350596f30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelMusic: {fileID: 8300000, guid: 87ea31616b181854cbf5c4153e8696c5, type: 3}
+  goalText: Eat 50 Blobs!
+  goalType: 3
+  goalAmount: 50
+  turnOffExperience: 0
+  turnOffRandomEvents: 1
+  turnOffTeaching: 0
+  turnOffPassingSmunchieClass: 1
+  turnOffIncubationMechanic: 0
+  moatherClassEnabled: 1
+  dictoClassEnabled: 1
+  sacriClassEnabled: 1
+  seeerClassEnabled: 0
+  whipyClassEnabled: 1
+  colorVariation: 1
+  sizeVariation: 1
+  uniqueVariation: 1
+  randomPlaceSpawn: 1
+  randomBlobTypeSpawn: 1
+  randomColorOfBlob: 1
+  thislevel_timeBetweenPoisonDamage: 0
+  thislevel_fallingDamage: -2
+  thislevel_timeOfRemainig: 0
+  thislevel_timeOfHint: 1
+  thislevel_baseHealth: 0
+  thislevel_startingLevel: 0
+  thislevel_levelThreshold: 0
+  thislevel_advancingThreshold: 0
+  thislevel_baseTeachingLimit: 0
+  thislevel_startingCost: 0
+  thislevel_costsJumps: 0
+  thislevel_dice: 0
+  thislevel_eventProbability: 0
+  thislevel_teachingProbability: 0
+  thislevel_notMoreThan: 0
+  thislevel_expToTeachIfFixed: 0
+  timeBetweenPoisonDamage: 0
+  fallingDamage: 0
+  timeOfRemainig: 0
+  timeOfHint: 0
+  baseHealth: 0
+  startingLevel: 0
+  levelThreshold: 0
+  advancingThreshold: 0
+  baseTeachingLimit: 0
+  startingCost: 0
+  costsJumps: 0
+  dice: 0
+  eventProbability: 0
+  teachingProbability: 0
+  notMoreThan: 0
+  expToTeachIfFixed: 0
